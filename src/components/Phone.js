@@ -8,6 +8,7 @@ const Phone = () => {
           <img
             src="https://uploads-ssl.webflow.com/5f127ac8860f158e650f06b5/5f12985a91b23596370f7a81_logo-72-dc-7-f-0-f%402x.png"
             alt="Remote Roofing Logo"
+            style={{ height: "30px" }}
           />
         </a>
       </div>
@@ -15,9 +16,10 @@ const Phone = () => {
         <img
           src="https://uploads-ssl.webflow.com/5f127ac8860f158e650f06b5/5f1297d1c3fecf36271c10a2_483947%403x.png"
           alt="Call Remote Roofing"
+          style={{ height: "15px" }}
         />
-        <a href="tel:+1-800-401-7716">
-          <strong>+1 (800) 401-7716</strong>
+        <a href="tel:+1-800-401-7716" style={{ textDecoration: 'none' }}>
+          <strong id="phone-number">+1 (800) 401-7716</strong>
         </a>
       </div>
     </div>

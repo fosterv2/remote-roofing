@@ -3,10 +3,110 @@
 }
 
 .home {
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 5%;
   padding-bottom: 154px;
   background-color: rgba(0,0,0,.7);
   background-image: url(https://uploads-ssl.webflow.com/5f127ac8860f158e650f06b5/5f5923b3f775ad961072248b_rr-bg-1920w-optimized.png);
   background-position: 0 80%;
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.phone-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#phone-number {
+  font-family: AirbnbCerealBold,sans-serif;
+  color: #fff;
+  border-style: solid;
+  border-width: 0;
+  border-color: hsla(0,0%,100%,0);
+  font-weight: 900;
+}
+
+.headline {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#big {
+  margin-top: 40px;
+  font-weight: 700;
+  font-family: AirbnbCerealBold,sans-serif;
+}
+
+#small {
+  font-family: AirbnbCerealLight,sans-serif;
+  color: #fff;
+  line-height: 1.5em;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.search-bar {
+  margin-top: 40px;
+  padding-left: 10px;
+}
+
+.form {
+  z-index: 0;
+  display: flex;
+  height: 60px;
+  max-width: 500px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 #000;
+  max-height: none;
+  margin-top: 10px;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#input {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  font-family: AirbnbCerealLight,sans-serif;
+  font-size: 16px;
+  height: 38px;
+  padding: 8px 12px;
+  margin-right: 40px;
+  line-height: 1.42857143;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+#button {
+  background-color: #017afe;
+  color: white;
+  max-width: 190px;
+  min-width: auto;
+  font-size: 14px;
+  padding: 9px 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 22px;
+  font-family: AirbnbCerealBook,sans-serif;
+  border: 0;
 }
