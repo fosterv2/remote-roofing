@@ -1,8 +1,5 @@
-.App {
-  color: white;
-}
-
 .home {
+  color: white;
   padding-top: 2%;
   padding-left: 4%;
   padding-right: 5%;
@@ -36,6 +33,10 @@
   border-width: 0;
   border-color: hsla(0,0%,100%,0);
   font-weight: 900;
+}
+
+.nav-bar {
+  display: flex;
 }
 
 .headline {
