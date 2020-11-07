@@ -4,14 +4,14 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div className="nav-bar">
-      <div>
-        <NavLink to="/" exact>Home</NavLink>
+      <div className="nav">
+        <NavLink to="/" exact activeStyle={{ borderBottom: "2px solid white" }}><strong>Home</strong></NavLink>
       </div>
-      <div>
-        <NavLink to="/faq">FAQ</NavLink>
+      <div className="nav">
+        <NavLink to="/faq" activeStyle={{ borderBottom: "2px solid white" }}><strong>FAQ</strong></NavLink>
       </div>
-      <div>
-        <NavLink to="/services">Services</NavLink>
+      <div className="nav">
+        <NavLink to="/services" activeStyle={{ borderBottom: "2px solid white" }}><strong>Services</strong></NavLink>
       </div>
     </div>
   );
